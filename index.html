@@ -13,15 +13,11 @@
     <header class="w-100">
         <!-- Imagen  -->
         <figure class="m-0">
-            <!-- <img class="imgHeader" src="content/imageHeader.png" alt=""> -->
-            <!-- <img class="imgHeader" src="content/imageHeader.png"  
-            srcset="content/imageHeader-320.png 320w, content/imageHeader-768.png 768w, content/imageHeader.png 1200w," 
-            sizes="(max-width: 400px) 320w, (max-width: 1199px) 768w, (min-width: 1200px) 1200w,"
-            alt=""> -->
             <picture>
-                <!-- <source media="(min-width:320px)" srcset="content/imageHeader-320.png">
-                <source media="(min-width:768px)" srcset="content/imageHeader-768.png"> -->
                 <source media="(min-width:1024px)" srcset="content/imageHeader.png">
+                <source media="(min-width:768px)" srcset="content/imageHeader-768.png">
+                <source media="(min-width:540px)" srcset="content/imageHeader-540.png">
+                <source media="(min-width:320px)" srcset="content/imageHeader-320.png">
                 <img class="imgHeader" src="content/imageHeader.png"> 
             </picture>
         </figure >
